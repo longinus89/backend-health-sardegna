@@ -1,0 +1,31 @@
+{
+  "id_prefix": "id1",
+  "title": "Lista dei presidi ospedalieri",
+  "page_size": 4,
+  "add_button_url": "#/hospitals/create",
+  "add_button_text": "Crea un presidio ospedaliero",
+  "get_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/all/:type",
+  "get_single_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1",
+  "create_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/create",
+  "edit_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1/update",
+  "model_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "delete_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1/delete",
+  "radix": "hospital",
+  "entity_name": "Presidio ospedaliero",
+  "poi_delete_label": "il presidio ospedaliero",
+  "actions": [
+  	{"type":"edit","url":"#/hospitals/:id1/edit","label":"Modifica","class":"btn btn-action btn-primary"},
+  	{"type":"delete","url":"#","label":"Cancella","class":"btn btn-action btn-danger"},
+  	{"type":"list","url":"#/hospitals/:id1/departments","label":"Dipartimenti","class":"btn btn-action btn-success"}
+  ],
+  "columns": {
+  	"code": { "label": "Codice" },
+  	"created_at": { "label": "Creato il" },
+  	"hospital_company": { "label": "Azienda" },
+  	"hospital_area": { "label": "Area" },
+  	"hospital_name": { "label": "Nome" },
+  	"hospital_description": { "label": "Descrizione" },
+  	"hospital_actions": { "label": "Azioni" }
+  }
+
+}

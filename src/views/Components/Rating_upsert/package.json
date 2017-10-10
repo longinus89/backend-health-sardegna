@@ -1,0 +1,6 @@
+{
+  "name": "Rating_upsert",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Rating_upsert.js"
+}

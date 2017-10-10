@@ -1,0 +1,6 @@
+{
+  "name": "Rating_list",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Rating_list.js"
+}

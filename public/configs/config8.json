@@ -1,0 +1,19 @@
+{
+  "id_prefix": "code",
+  "title": "Rating",
+  "page_size": 12,
+  "get_url":"http://api.ilportaledellasanitainsardegna.it/api/rating/all/:type/opened",
+  "edit_url":"http://api.ilportaledellasanitainsardegna.it/api/rating/moderate",
+  "model_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "radix": "rating",
+  "entity_name": "Rating",
+  "actions": [
+    {"type":"edit","url":"#/rating/:code/edit","label":"Modifica","class":"btn btn-action btn-primary"}
+  ],
+  "columns": {
+    "rating_poi_name": { "label": "Struttura" },
+    "rating_answer": { "label": "Risposta" },
+    "rating_actions": { "label": "Azioni" }
+  }
+
+}

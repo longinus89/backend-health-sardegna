@@ -1,0 +1,19 @@
+{
+  "title": "Utenti",
+  "page_size": 50,
+  "export_button_text": "Exporta in csv",
+  "get_url":"http://testapi.ilportaledellasanitainsardegna.it/api/user/get",
+  "model_url":"http://testapi.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "radix": "user",
+  "entity_name": "User",
+  "actions": [ ],
+  "columns": {
+    "nickname": { "label": "Nickname" },
+    "given_name": { "label": "Nome" },
+    "family_name": { "label": "Cognome" },
+    "email": { "label": "Email" },
+    "email_verified": { "label": "Email verificata" },
+    "created_at": { "label": "Creato il" }
+  }
+
+}

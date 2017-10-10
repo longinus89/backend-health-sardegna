@@ -1,0 +1,28 @@
+{
+  "id_prefix": "id1",
+  "title": "Lista dei cup regionali",
+  "page_size": 4,
+  "add_button_url": "#/cups/create",
+  "add_button_text": "Crea un cup",
+  "get_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/all/:type",
+  "get_single_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1",
+  "create_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/create",
+  "edit_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1/update",
+  "model_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "delete_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1/delete",
+  "radix": "cup",
+  "entity_name": "Cup",
+  "poi_delete_label": "il cup specifico",
+  "actions": [
+  	{"type":"edit","url":"#/cups/:id1/edit","label":"Modifica","class":"btn btn-action btn-primary"},
+  	{"type":"delete","url":"#","label":"Cancella","class":"btn btn-action btn-danger"}
+  ],
+  "columns": {
+    "code": { "label": "Codice" },
+    "created_at": { "label": "Creato il" },
+  	"cup_name": { "label": "Nome" },
+  	"cup_description": { "label": "Descrizione" },
+  	"cup_actions": { "label": "Azioni" }
+  }
+
+}

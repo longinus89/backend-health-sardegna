@@ -1,0 +1,29 @@
+{
+  "id_prefix": "id1",
+  "title": "Lista degli urp regionali",
+  "page_size": 4,
+  "add_button_url": "#/urps/create",
+  "add_button_text": "Crea urp",
+  "get_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/all/:type",
+  "get_single_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1",
+  "create_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/create",
+  "edit_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1/update",
+  "model_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "delete_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id1/delete",
+  "radix": "urp",
+  "entity_name": "Urp",
+  "poi_delete_label": "l'urp specifico",
+  "actions": [
+  	{"type":"edit","url":"#/urps/:id1/edit","label":"Modifica","class":"btn btn-action btn-primary"},
+  	{"type":"delete","url":"#","label":"Cancella","class":"btn btn-action btn-danger"}
+  ],
+  "columns": {
+    "code": { "label": "Codice" },
+    "created_at": { "label": "Creato il" },
+    "urp_company": { "label": "Azienda" },
+  	"urp_name": { "label": "Nome" },
+  	"urp_description": { "label": "Descrizione" },
+  	"urp_actions": { "label": "Azioni" }
+  }
+
+}

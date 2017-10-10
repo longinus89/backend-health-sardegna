@@ -1,0 +1,6 @@
+{
+  "name": "Users_list",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Users_list.js"
+}

@@ -1,0 +1,28 @@
+{
+  "id_prefix": "code",
+  "title": "Rating",
+  "page_size": 12,
+  "add_button_url": "#/rating/:type/create",
+  "add_button_text": "Crea domanda rating",
+  "get_url":"http://api.ilportaledellasanitainsardegna.it/api/rating/all/:type",
+  "get_single_url":"http://api.ilportaledellasanitainsardegna.it/api/rating/:code",
+  "get_single_all_to_moderate":"http://api.ilportaledellasanitainsardegna.it/api/rating/all/:type/opened",
+  "create_url":"http://api.ilportaledellasanitainsardegna.it/api/rating/create",
+  "edit_url":"http://api.ilportaledellasanitainsardegna.it/api/rating/:code/update",
+  "model_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "radix": "rating",
+  "entity_name": "Rating",
+  "actions": [
+    {"type":"edit","url":"#/rating/:code/edit","label":"Modifica","class":"btn btn-action btn-primary"}
+  ],
+  "columns": {
+    "code": { "label": "Codice" },
+    "created_at": { "label": "Creato il" },
+    "rating_content": { "label": "Domanda" },
+    "rating_order": { "label": "Ordine" },
+    "rating_opened": { "label": "Aperta" },
+    "rating_disabled": { "label": "Disabilitato" },
+    "rating_actions": { "label": "Azioni" }
+  }
+
+}

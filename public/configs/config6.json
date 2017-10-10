@@ -1,0 +1,16 @@
+{
+  "title": "Scheda servizio 118",
+  "page_size": 4,
+  "add_button_url": "#/s118/edit",
+  "add_button_text": "Modifica 118",
+  "get_single_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id",
+  "edit_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id/update",
+  "model_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "radix": "s118",
+  "entity_static_ID": "rb54n2otrkdmc",
+  "entity_name": "s118",
+  "actions": [
+  	{"type":"edit","url":"#/s118/:id/edit","label":"Modifica","class":"btn btn-action btn-primary"}
+  ]
+
+}

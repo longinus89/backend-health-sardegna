@@ -1,0 +1,6 @@
+{
+  "name": "Rating_mod_list",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Rating_mod_list.js"
+}

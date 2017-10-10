@@ -1,0 +1,11 @@
+.col-md-11.offset-md-1{
+    border: 1px dashed rgba(0, 0, 0, 0.23);
+    padding: 18px;
+    box-sizing: border-box;
+}
+.add-button{
+	margin: 10px 10px 10px 0px;
+}
+.btn-action{
+	margin: 10px;
+}

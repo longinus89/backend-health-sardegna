@@ -1,0 +1,6 @@
+{
+  "name": "Pois_upsert",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Pois_upsert.js"
+}

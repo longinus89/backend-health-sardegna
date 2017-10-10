@@ -1,0 +1,31 @@
+{
+  "id_prefix": "id3",
+  "title": "Lista dei reparti",
+  "page_size": 4,
+  "add_button_url": "#/hospitals/:id1/departments/:id2/units/create",
+  "add_button_text": "Crea reparto",
+  "get_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/all/:type/:id2",
+  "get_single_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id3",
+  "create_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/create",
+  "edit_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id3/update",
+  "model_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "delete_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id3/delete",
+  "radix": "unit",
+  "entity_name": "Reparto",
+  "poi_delete_label": "il reparto",
+  "actions": [
+  	{"type":"edit","url":"#/hospitals/:id1/departments/:id2/units/:id3/edit","label":"Modifica","class":"btn btn-action btn-primary"},
+    {"type":"delete","onclick":"delete","url":"#","label":"Cancella","class":"btn btn-action btn-danger"}
+  ],
+  "columns": {
+  	"code": { "label": "Codice" },
+  	"created_at": { "label": "Creato il" },
+  	"unit_name": { "label": "Nome" },
+  	"unit_description": { "label": "Descrizione" },
+    "unit_activities": { "label": "Attività" },
+    "unit_performance": { "label": "Performance" },
+    "father": { "label": "Dipartimento" },
+  	"department_actions": { "label": "Azioni" }
+  }
+
+}

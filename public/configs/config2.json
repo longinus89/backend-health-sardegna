@@ -1,0 +1,30 @@
+{
+  "id_prefix": "id2",
+  "title": "Lista dei dipartimenti",
+  "page_size": 4,
+  "add_button_url": "#/hospitals/:id1/departments/create",
+  "add_button_text": "Crea dipartimento",
+  "get_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/all/:type/:id1",
+  "get_single_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id2",
+  "create_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/create",
+  "edit_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id2/update",
+  "model_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/model/get",
+  "delete_url":"http://api.ilportaledellasanitainsardegna.it/api/poi/:id2/delete",
+  "radix": "department",
+  "entity_name": "Dipartimento",
+  "poi_delete_label": "il dipartimento",
+  "actions": [
+  	{"type":"edit","url":"#/hospitals/:id1/departments/:id2/edit","label":"Modifica","class":"btn btn-action btn-primary"},
+    {"type":"delete","onclick":"delete","url":"#","label":"Cancella","class":"btn btn-action btn-danger"},
+  	{"type":"list","url":"#/hospitals/:id1/departments/:id2/units","label":"Reparti","class":"btn btn-action btn-success"}
+  ],
+  "columns": {
+  	"code": { "label": "Codice" },
+  	"created_at": { "label": "Creato il" },
+  	"department_name": { "label": "Nome" },
+  	"department_description": { "label": "Descrizione" },
+    "father": { "label": "Presidio Osp." },
+  	"department_actions": { "label": "Azioni" }
+  }
+
+}
